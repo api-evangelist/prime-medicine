@@ -1,8 +1,27 @@
 aid: prime-medicine
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prime-medicine.png
 name: Prime Medicine
-description: 'Prime Medicine is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Prime Medicine is a clinical-stage biotechnology company developing a
+  new class of differentiated one-time curative genetic therapies built on Prime Editing,
+  a versatile, precise, and efficient gene editing technology that can search and replace
+  disease-causing genetic sequences at their precise location in the genome without
+  causing double-strand DNA breaks. The company is advancing a pipeline of programs
+  across a broad range of diseases and, per its public materials, believes Prime Editing
+  could theoretically correct approximately 90% of known disease-causing genetic mutations.
+  It is publicly traded and surfaced in the API Evangelist network as a portfolio company
+  of GV (Google Ventures). This is a corporate/life-sciences profile: the company
+  publishes no public developer API, developer portal, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/prime-medicine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Gene Editing
+- Prime Editing
+- Genetic Medicine
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://primemedicine.com
+  url: https://primemedicine.com
+- type: About
+  url: https://primemedicine.com/about/
+- type: Science
+  url: https://primemedicine.com/science/
+- type: Pipeline
+  url: https://primemedicine.com/pipeline/
+- type: Careers
+  url: https://primemedicine.com/careers/
+- type: Investors
+  url: https://investors.primemedicine.com
+- type: PrivacyPolicy
+  url: https://primemedicine.com/privacy-policy
+- type: TermsOfService
+  url: https://primemedicine.com/terms-of-use
+- type: DomainSecurity
+  url: security/prime-medicine-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
